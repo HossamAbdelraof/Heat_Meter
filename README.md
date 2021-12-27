@@ -14,3 +14,12 @@ the full project based on many stages from measuring the tempereture to fan spee
 4- controol code the fan <br>
  <br>
 
+
+## 1- sensing the tempereture:
+> for sensing the temperetur ewe use IC  ***LM35*** 
+
+|Feature| value|
+--
+|supply voltage| 4~30|
+--
+
