@@ -33,7 +33,7 @@ we will ues ***opamp 741*** to map this value using ***non inverting amplifier**
 in ***ideal non inverting amplifier*** the gain can be calculating using equation:<br>
 ![image](https://user-images.githubusercontent.com/81495150/147510669-2755a879-7016-462b-b6d0-95d7ed94cec9.png)
 
-in our cause br>
+in our cause <br>
 ![image](https://user-images.githubusercontent.com/81495150/147511124-d9288e54-553f-4641-a272-81750e9dedda.png)
 
 
