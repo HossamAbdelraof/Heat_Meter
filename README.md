@@ -26,23 +26,25 @@ the sensor measure the serface tempeteure and return a maximum value of ~ 1.5V  
 this value is very small and canot measured by the controoler so we have to map the voltage value to highter value this take us to the next step.
 <br><br>
 ## 2- maping the tempereture:
---
 
 most controllers read *5V* values so we need to map the *1.5V* to *5V*<br>
 
 we will ues ***opamp 741*** to map this value using ***non inverting amplifier*** .
-in ***ideal non inverting amplifier*** the gain can be calculating using 
-
-
+in ***ideal non inverting amplifier*** the gain can be calculating using equation:
+![image](https://user-images.githubusercontent.com/81495150/147510669-2755a879-7016-462b-b6d0-95d7ed94cec9.png)
 
 in our cause 
-
+![image](https://user-images.githubusercontent.com/81495150/147511124-d9288e54-553f-4641-a272-81750e9dedda.png)
 
 
 so the ratio between Rf and R1 eqal to 
+
+![image](https://user-images.githubusercontent.com/81495150/147511153-f403cd4a-94f1-4f80-8ba1-77938ffa03fb.png)
+
 our resistors values is 
 
 
+![image](https://user-images.githubusercontent.com/81495150/147511196-57794eb1-063b-4965-a045-bcbffa1e614b.png)
 
 then the connecton as in fig 
 
