@@ -20,6 +20,8 @@ the full project based on many stages from measuring the tempereture to fan spee
 
 |Feature| value|
 |-|-|
-|supply voltage| 4~30|
---
+|supply voltage| 4V ~ 30V | 
+|-|-|
+|output voltage| 1.5V|
+|-|-|
 
