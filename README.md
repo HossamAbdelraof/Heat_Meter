@@ -18,9 +18,14 @@ the full project based on many stages from measuring the tempereture to fan spee
 ## 1- sensing the tempereture:
 > for sensing the temperetur ewe use IC  ***LM35*** 
 
-|**Feature**| **value**|
-|-|-|
+|**Feature**| **value** |
+|-----------|----------|
 |supply voltage| 4V ~ 30V | 
 |output voltage| 1.5V |
 |sensitive| 9.8 mV//C |
+
+the sensor measure the serface tempeteure and return a maximum value of ~ 1.5V  <br>
+this value is very small and canot measured by the controoler so we have to map the voltage value to highter value this take us to the next step.
+
+## 2- maping the tempereture:
 
