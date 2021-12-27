@@ -55,9 +55,10 @@ then the output of the opamp ready to inter the arduino
 
 here we read volte in range ( 0V ~ 5V) "which referance on the tempereture"  as analog values "in the arduino" in 10-bit range ( 0 ~ 1023)
 
-we take this value and map it again in PWM 8-bit range ( 0 ~ 255) and use it to controol:
-1- fan speed
-2- RGB led 
+we take this value and map it again in PWM 8-bit range ( 0 ~ 255) and use it to controol:<br>
+1- fan speed <br>
+2- RGB led  <br>
 
-teh RGB led  should refer to 2 thinsg:
-1- tempeteure 
+the RGB led  should refer to 2 thinsg:<br>
+1- tempeteure value (when tempereture increase the led move from blue to red )<br>
+2- fan speed (when the fan speed increase the RGB move from blue to red) <br>
