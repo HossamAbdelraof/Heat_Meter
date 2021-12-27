@@ -26,6 +26,15 @@ the full project based on many stages from measuring the tempereture to fan spee
 
 the sensor measure the serface tempeteure and return a maximum value of ~ 1.5V  <br>
 this value is very small and canot measured by the controoler so we have to map the voltage value to highter value this take us to the next step.
-
+<br><br>
 ## 2- maping the tempereture:
+--
+
+most controllers read *5V* values so we need to map the *1.5V* to *5V*<br>
+
+we will ues ***opamp 741*** to map this value using ***non inverting amplifier*** .
+in ***ideal non inverting amplifier*** the gain can be calculating using 
+\begin{equation}
+\sqrt{k}
+\end{equation}
 
