@@ -51,7 +51,7 @@ then the connecton as in fig
 then the output of the opamp ready to inter the arduino
 
 
-##3- using the controoler
+## 3- using the controoler
 > in heis section we usen arduino uno R3 
 
 here we read volte in range ( 0V ~ 5V) "which referance on the tempereture"  as analog values "in the arduino" in 10-bit range ( 0 ~ 1023)
