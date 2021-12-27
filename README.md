@@ -49,7 +49,8 @@ then the connecton as in fig
 
 
 then the output of the opamp ready to inter the arduino
---
+
+
 ##3- using the controoler
 > in heis section we usen arduino uno R3 
 
