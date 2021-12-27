@@ -18,8 +18,9 @@ the full project based on many stages from measuring the tempereture to fan spee
 ## 1- sensing the tempereture:
 > for sensing the temperetur ewe use IC  ***LM35*** 
 
-|Feature| value|
+|**Feature**| **value**|
 |-|-|
 |supply voltage| 4V ~ 30V | 
-|output voltage| 1.5V|
+|output voltage| 1.5V |
+|sensitive| 9.8 mV//C |
 
