@@ -5,12 +5,10 @@ the full project based on many stages from measuring the tempereture to fan spee
 **all stages shoown in the diagram**
 
 ### <br>
-> project roadmap  <br>
-
-
+roject roadmap :
 1- measure tempereture  <br>
 2- maping the tempereture  <br>
-3- read values with controoler  <br>
+3- using the controoler  <br>
 4- controol code the fan <br>
  <br>
 
@@ -34,7 +32,32 @@ most controllers read *5V* values so we need to map the *1.5V* to *5V*<br>
 
 we will ues ***opamp 741*** to map this value using ***non inverting amplifier*** .
 in ***ideal non inverting amplifier*** the gain can be calculating using 
-\begin{equation}
-\sqrt{k}
-\end{equation}
 
+
+
+in our cause 
+
+
+
+so the ratio between Rf and R1 eqal to 
+our resistors values is 
+
+
+
+then the connecton as in fig 
+
+
+
+then the output of the opamp ready to inter the arduino
+--
+##3- using the controoler
+> in heis section we usen arduino uno R3 
+
+here we read volte in range ( 0V ~ 5V) "which referance on the tempereture"  as analog values "in the arduino" in 10-bit range ( 0 ~ 1023)
+
+we take this value and map it again in PWM 8-bit range ( 0 ~ 255) and use it to controol:
+1- fan speed
+2- RGB led 
+
+teh RGB led  should refer to 2 thinsg:
+1- tempeteure 
